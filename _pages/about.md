@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate
+subtitle: PhD Candidate in Uppsala University, Sweden
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Angstromlaboratoriet</p>
-    <p>Uppsala, Sweden</p>
+    {%- comment -%} <p>Angstromlaboratoriet</p> {%- endcomment -%}
+    {%- comment -%} <p>Uppsala, Sweden</p> {%- endcomment -%}
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,4 +26,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-PhD candidate working on signal processing and machine learning. Interested in developing learning algorithms and analysis methods as well as applying them in engineering applications. 
+Currently working on signal processing and machine learning. Interested in developing learning algorithms and analysis methods as well as applying them in engineering applications. 
