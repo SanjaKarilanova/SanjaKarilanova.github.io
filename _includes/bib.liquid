@@ -1,0 +1,9 @@
+<p>
+  {% if entry.url %}
+    <strong><a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ reference.title }}</a></strong>
+  {% else %}
+    <strong>{{ reference.title }}</strong>
+  {% endif %}
+  <br>
+  {{ reference.author }}. <em>{{ reference.journal }}</em>{% if entry.year %}, {{ entry.year }}{% endif %}.
+</p>
